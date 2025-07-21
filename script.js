@@ -1,5 +1,7 @@
 const createTaskButton = document.querySelector(".create-task-button");
 const taskContainer = document.querySelector(".task-container");
+const incompleteContainer = taskContainer.querySelector(".incomplete");
+const completedContainer = taskContainer.querySelector(".completed");
 
 createTaskButton.addEventListener("click", () => {
   manager.addTask();

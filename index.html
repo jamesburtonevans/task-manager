@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <link rel="stylesheet" href="styles.css">
-    <head>
-        <h1>Task Manager:</h1>
-        <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
-    </head>
-    <div class="create-task">
-        <button class="create-task-button">Create Task</button>
-    </div>
-    <p>Your tasks</p>
-    <div class="task-container">
-    </div>
-
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+</head>
+<body>
+    <div class="layout">
+        <div class="sidebar">
+            <p>Sidebar Test</p>
+        </div>
+        <div class="tasks-section">
+            <h1>Task Manager:</h1>
+            <button class="create-task-button">Create Task</button>
+            <p>Your tasks</p>
+            <div class="task-container all-tasks">
+            </div>
+        </div>
+</body>
 <script async src="script.js">
 </script>
