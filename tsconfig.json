@@ -3,9 +3,9 @@
     "target": "es6",
     "lib": ["es2020", "dom"],
     "module": "es6",
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "outDir": "frontend/dist",
+    "rootDir": "frontend/src",
     "strict": true
   },
-  "include": ["src"]
+  "include": ["frontend/**/*", "shared/**/*"]
 }
