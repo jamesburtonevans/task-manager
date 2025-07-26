@@ -32,6 +32,14 @@ export class TaskManager {
     return task;
   }
 
+  getAllTasks() {
+    return Array.from(this.tasks.values()).map(task => ({
+      id: task.id,
+      title: task.title
+    }));
+  }
+
+
   // Methods for Managing Lists //
   createList(title: string) {
     const list = new TaskList(title);
